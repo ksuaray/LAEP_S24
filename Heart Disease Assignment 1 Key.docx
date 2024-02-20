@@ -1,0 +1,160 @@
+Heart Disease Data Set 
+
+Name_______________________ID_____________________Major_____________________ 
+
+Context 
+
+Coronary heart disease (CHD) involves the reduction of blood flow to the heart muscle due to the build-up of plaque in the arteries of the heart. It is the most common form of cardiovascular disease. Currently, invasive coronary angiography represents the gold standard for establishing the presence, location, and severity of CAD, however, this diagnostic method is costly and associated with morbidity and mortality in CAD patients. Therefore, it would be beneficial to develop a non-invasive alternative to replace the current gold standard. 
+
+Other less invasive diagnostics methods have been proposed in the scientific literature including exercise electrocardiogram, thallium scintigraphy, and fluoroscopy of coronary calcification. However, the diagnostic accuracy of these tests only ranges between 35%-75%. Therefore, it would be beneficial to develop a computer-aided diagnostic tool that could utilize the combined results of these non-invasive tests in conjunction with other patient attributes to boost the diagnostic power of these non-invasive methods with the aim of ultimately replacing the current invasive gold standard. 
+
+A number of 303 consecutive patients referred for coronary angiography at the Cleveland Clinic between May 1981 and September 1984 participated in the experiment. No patient had a history or electrocardiographic evidence of prior myocardial infarction or known valvular or cardiomyopathic diseases.  
+
+About the Dataset 
+
+The dataset comprises 303 observations, 13 features, and 1 target attribute. The 13 features include the results of the aforementioned non-invasive diagnostic tests along with other relevant patient information. The target variable includes the result of the invasive coronary angiogram which represents the presence or absence of coronary artery disease in the patient. The 14 variables (13 features and 1 target attribute) are described below.  
+
+AGE: displays the age of the individual. 
+
+SEX: displays the gender of the individual using the following format: 
+1 = male 
+0 = female 
+
+CP: displays the type of chest-pain experienced by the individual using the following format: 
+0 = typical angina 
+1 = atypical angina 
+2 = non — anginal pain 
+3 = asymptotic 
+
+TRESTBPS: displays the resting blood pressure value of an individual in mmHg (unit) 
+
+CHOL: displays the serum cholesterol in mg/dl (unit) 
+
+FBS: compares the fasting blood sugar value of an individual with 120mg/dl. 
+1: fasting blood sugar >120mg/dl 
+0: fasting blood sugar ≤ 120mg/dl 
+
+RESTECG: displays resting electrocardiographic results 
+0 = normal 
+1 = having ST-T wave abnormality 
+2 = left ventricular hyperthrophy 
+
+THALACH: displays the max heart rate achieved by an individual. 
+
+EXANG: Exercise induced angina 
+1 = yes 
+0 = no 
+
+OLDPEAK  ST depression induced by exercise relative to rest. Displays the value which is an integer or float. 
+
+SLOPE: Peak exercise ST segment 
+1 = upsloping 
+2 = flat 
+3 = downsloping 
+
+CA: Number of major vessels (0-3) colored by fluoroscopy. Displays the value as integer or float. 
+
+THAL: Displays the thalassemia 
+1 = normal 
+2 = fixed defect 
+3 = reversible defect 
+
+TARGET: Displays whether the individual is suffering from heart disease or not : 
+0 = absence 
+1 = present. 
+
+The data was collected by Robert Detrano, M.D., Ph.D. of the Cleveland Clinic Foundation. See the Appendix at the end of this document for more details on why these variables are used to analyze CHD. 
+
+Attribution:  UCI Machine Learning Repository 
+
+A snippet of the data is as follows:  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assignment 1 
+
+Descriptive Statistics – Graphical and Numerical Summary 
+
+Use SPSS to analyze the data set and complete each of the following. As appropriate, copy the SPSS output and paste it in the correct part below. For problems that require a written response, type the answer below. 
+
+ 
+
+Determine whether the variables below are qualitative or quantitative. If they are quantitative, specify whether they are continuous or discrete.    
+
+Age 
+
+Sex 
+
+chest pain type 
+
+resting blood pressure 
+
+ 
+
+Construct a frequency table, relative frequency table, and relative frequency bar chart to describe the distribution of chest pain type. State any fact that jumps out to you.   
+
+ 
+
+For questions 3-6: Find your variable based on your last name and use that variable when answering questions #3 to #6.  
+
+ 
+
+Last Name  
+
+Variable  
+
+A-F  
+
+resting blood pressure 
+
+G-M  
+
+serum cholesterol 
+
+N-S  
+
+maximum heart rate achieved  
+
+T-Z  
+
+ST depression induced by exercise relative to rest 
+
+ 
+
+Construct a histogram for your variable. Use Number of Intervals =15. 
+
+ 
+
+Construct a boxplot for your variable.  
+
+ 
+
+Calculate the following summary statistics for your variable: maximum, minimum, mean, median, standard deviation, Q1, and Q3. Paste the output below. 
+
+ 
+
+Use information from questions #3, #4, and #5 to describe your variable in terms of shape, center, spread, and outliers. Interpret your findings.   
+
+ 
+
+Calculate and state the mean age, mean resting blood pressure, and mean cholesterol for those with heart disease, and for those without heart disease. Compare the results. 
+
+ 
+
+Generate a paragraph of at least 100 words to address ONE of the following questions: 
+
+Discuss how analyzing your chosen data set using statistical methods could help you become better prepared for future courses in your major?  
+
+ 
+
+Discuss how analyzing your chosen data set using statistical methods could be instrumental in becoming better prepared for your future career? 
+
+ 
